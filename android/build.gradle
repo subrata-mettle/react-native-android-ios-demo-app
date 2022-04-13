@@ -19,7 +19,8 @@ buildscript {
         minSdkVersion = 16
         compileSdkVersion = 27
         targetSdkVersion = 27       
-        versionName = getMyVersionName()
+        supportLibVersion = "27.1.1"
+		versionName = getMyVersionName()
         versionCode = getMyVersionCode()
     }
     repositories {
