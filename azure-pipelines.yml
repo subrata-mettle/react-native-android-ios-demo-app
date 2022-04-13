@@ -43,7 +43,7 @@ steps:
   - task: ios-bundle-version@1
     displayName: 'Bump iOS version'
     inputs:
-      sourcePath: 'ios/react-native-android-ios/info.plist'
+      sourcePath: 'ios/react_native_android_ios/Info.plist'
       versionCodeOption: 'buildid'
       versionCode: '$(Build.BuildId)'
       versionName: '$(NEW_VERSION)'
