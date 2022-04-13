@@ -103,8 +103,8 @@ android {
         applicationId "com.react_native_android_ios"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 1
-        versionName "1.0"
+		versionCode rootProject.ext.versionCode
+		versionName rootProject.ext.versionName
         ndk {
             abiFilters "armeabi-v7a", "x86"
         }
